@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/static/main.css">
+
+    <title>Quantified self</title>
+  </head>
+  <body style="background-color:silver;">
+    <div class="row" align="center">
+        <h1>welcome to the Quantified self application</h1><br><br>
+    </div><br>
+    <div class="row" >
+      <div class="form col-sm-6 offset-sm-3">
+        <form class="loginform" action="/" method="post" >
+          <h3>Login to use:</h3><br>
+          <label for="username" >Enter your username:</label><br>
+          <input type="text" class="form-control" name="username" required><br>
+          <label for="password">Password:</label><br>
+          <input type="password" class="form-control" name="password"  required><br>
+          <button type="submit">Login</button><h5 style="font-family: zillaslab,palatino,Palatino Linotype,serif; color:red;">{{error}}</h5>
+          Don't have an account? <a href="/signup">Sign Up!!</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

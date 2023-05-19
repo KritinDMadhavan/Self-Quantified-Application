@@ -22,9 +22,12 @@ How to operate the apllication:
 1)Run main.py
 2)It redirects to index.html. Enter your username and password to sign in.
 3)if you dont have an account sign up, and then login again
+
 4)In the dashboard.html, press the 'add tracker' button to add a tracker. It will then redirect back to tracker.html
 saving a table of trackers with Add, Edit and Delete option.
+
 5)To add logs, press the Add button and enter the log
 6)To see details about the tracker like name type of the tracker etc..
+
 7)A graph will be displayed and details of the logs and we can customize the range of the graph
 8)you can return to dashboard or log out, by clicking the dashboard or logout button on top right! 
